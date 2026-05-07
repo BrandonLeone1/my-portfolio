@@ -34,7 +34,7 @@ export default function ProjectManagerWriteUp () {
             <div className="max-w-5xl p-6 mx-auto mt-12">
                 <ReturnNavbar />
                 <a href="https://project-management-app-nu-ashy.vercel.app/dashboard" target="_blank" className="text-olive-400 underline hover:text-olive-500 duration-300 cursor-pointer text-3xl font-semibold mb-4">Project Manager - Case Study</a>
-                <p className="text-neutral-100 font-medium mb-6 text-xl max-w-[65ch]">A real-time project management tool with task tracking and team communication, built to simulate a lightweight SaaS workflow.</p>
+                <p className="text-neutral-100 font-medium mb-6 text-xl max-w-[65ch] mt-2">A real-time project management tool with task tracking and team communication, built to simulate a lightweight SaaS workflow.</p>
                 <video src="pManagerFinal.mp4" className="rounded" muted playsInline controls loop ref={videoRef}/>
                 <p className="text-xl font-medium mt-12 text-neutral-100">Overview</p>
                 <p className="mt-6 text-neutral-100 max-w-[65ch]">A full-stack project management application that allows users to create projects, manage tasks, track progress, and communicate through a built-in chat system.</p>

@@ -34,7 +34,7 @@ export default function TaskTrackerWriteUp () {
             <div className="max-w-5xl p-6 mx-auto mt-12">
                 <ReturnNavbar />
                 <a href="https://kanban-final-three.vercel.app/" target="_blank" className="text-olive-400 underline cursor-pointer hover:text-olive-500 duration-300 text-3xl font-semibold mb-4">Task Tracker - Case Study</a>
-                <p className="text-neutral-100 font-medium mb-6 text-xl max-w-[65ch]">A Kanban-style task manager with drag-and-drop interactions and persistent real-time state synchronization.</p>
+                <p className="text-neutral-100 font-medium mb-6 text-xl max-w-[65ch] mt-2">A Kanban-style task manager with drag-and-drop interactions and persistent real-time state synchronization.</p>
                 <video src="taskFinal.mp4" className="rounded" loop playsInline controls muted ref={videoRef}/>
                 <p className="text-xl font-medium mt-12 text-neutral-100 ">Overview</p>
                 <p className="mt-6 text-neutral-100 max-w-[65ch]">A Kanban-style task management application that allows users to organize tasks across columns with drag-and-drop functionality and real-time synchronization.</p>

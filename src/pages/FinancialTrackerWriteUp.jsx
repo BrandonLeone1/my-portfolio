@@ -39,7 +39,7 @@ const navigate = useNavigate();
             <div className="max-w-5xl p-6 mx-auto mt-12">
                 <ReturnNavBar />
                 <a href="https://financial-tracker-sage.vercel.app/" target='_blank' className="text-olive-400 underline hover:text-olive-500 duration-300 cursor-pointer text-3xl font-semibold mb-4">Financial Tracker - Case Study</a>
-                <p className='text-neutral-100 font-medium text-xl mb-6 max-w-[65ch]'>A full-stack finance dashboard focused on real-time analytics, performance, and scalable data handling.</p>
+                <p className='text-neutral-100 font-medium text-xl mb-6 max-w-[65ch] mt-2'>A full-stack finance dashboard focused on real-time analytics, performance, and scalable data handling.</p>
                 <div>
                 <video src="FinanceFinal.mp4" loop playsInline muted controls className="rounded" ref={videoRef}/>
                 </div>
