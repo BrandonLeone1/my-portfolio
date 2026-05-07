@@ -7,35 +7,60 @@ export default function Navbar () {
     function heroScroll () {
         const heroSection = document.querySelector("#hero");
         if (heroSection) {
-            heroSection.scrollIntoView({behavior: "smooth"})
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                heroSection.scrollIntoView({behavior: "smooth"})
+                })
+            })
+            
         }
-    }
+    }  
 
     function skillsScroll () {
         const skillsSection = document.querySelector("#skills");
         if (skillsSection) {
-            skillsSection.scrollIntoView({behavior: "smooth"})
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    skillsSection.scrollIntoView({behavior: "smooth"})
+                })
+            })
+            
         }
     }
 
     function projectsScroll () {
         const projectsSection = document.querySelector("#projects-section");
         if (projectsSection) {
-            projectsSection.scrollIntoView({behavior: "smooth"})
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    projectsSection.scrollIntoView({behavior: "smooth"})
+                })
+            })
+            
         } 
     }
 
     function contactScroll () {
         const contactSection = document.querySelector("#contact");
         if (contactSection) {
-            contactSection.scrollIntoView({behavior: "smooth"})
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    contactSection.scrollIntoView({behavior: "smooth"})
+                })
+            })
+            
         }
     }
 
     function aboutScroll () {
         const aboutSection = document.querySelector("#about");
         if (aboutSection) {
-            aboutSection.scrollIntoView({behavior: "smooth"})
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    aboutSection.scrollIntoView({behavior: "smooth"})
+                })
+            })
+            
         }
     }
 
@@ -82,10 +107,8 @@ export default function Navbar () {
                         className="flex flex-col gap-6 items-center justify-center">
                         <a onClick={() => {
                             setIsOpen(false)
-                            
-                            setTimeout(() => {
                             projectsScroll();    
-                            }, 0.5);
+                       
                             
                            
                             }} className="hover:opacity-80 mt-6 cursor-pointer">Projects</a>
@@ -93,19 +116,15 @@ export default function Navbar () {
                             <a 
                             onClick={() => {
                             setIsOpen(false)
-                            
-                            setTimeout(() => {
                             aboutScroll();    
-                            }, 0.5);
+            
                             
                             
                         }}
                             className="hover:opacity-80 duration-300 cursor-pointer">About</a>
                         <a onClick={() => {
                             setIsOpen(false)
-                            setTimeout(() => {
                             skillsScroll();    
-                            }, 0.5);
                             
                            
                         }} className="hover:opacity-80 cursor-pointer">Skills</a>
@@ -113,10 +132,7 @@ export default function Navbar () {
                         
                         onClick={() => {
                             setIsOpen(false)
-                            setTimeout(() => {
                             contactScroll()    
-                            }, 0.5);
-                            
                             
                         }} className="hover:opacity-80 mb-6 cursor-pointer">Contact</a>
                         </motion.div>
