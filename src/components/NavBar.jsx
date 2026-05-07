@@ -85,7 +85,7 @@ export default function Navbar () {
                             
                             setTimeout(() => {
                             projectsScroll();    
-                            }, 0.3);
+                            }, 0.5);
                             
                            
                             }} className="hover:opacity-80 mt-6 cursor-pointer">Projects</a>
@@ -96,7 +96,7 @@ export default function Navbar () {
                             
                             setTimeout(() => {
                             aboutScroll();    
-                            }, 0.3);
+                            }, 0.5);
                             
                             
                         }}
@@ -105,7 +105,7 @@ export default function Navbar () {
                             setIsOpen(false)
                             setTimeout(() => {
                             skillsScroll();    
-                            }, 0.3);
+                            }, 0.5);
                             
                            
                         }} className="hover:opacity-80 cursor-pointer">Skills</a>
@@ -115,7 +115,7 @@ export default function Navbar () {
                             setIsOpen(false)
                             setTimeout(() => {
                             contactScroll()    
-                            }, 0.3);
+                            }, 0.5);
                             
                             
                         }} className="hover:opacity-80 mb-6 cursor-pointer">Contact</a>
