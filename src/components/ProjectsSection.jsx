@@ -57,6 +57,36 @@ export default function ProjectsSection () {
 
              <div className="max-w-5xl mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
 
+
+                <div className='bg-neutral-800/50 rounded shadow-xl p-6 flex flex-col gap-4'>
+                    
+                      <Link to={'task-tracker'}>
+                     <div className="after:content-[''] group after:bg-black/80 after:backdrop-blur-[1px] after:h-full after:opacity-0 hover:after:opacity-100 items-center justify-center flex after:duration-300 after:w-full after:block relative after:absolute after:inset-0">
+                    <p className='text-neutral-100 text-center absolute z-10 text-lg  cursor-pointer duration-150 origin-bottom overflow-hidden opacity-0 -translate-y-5 group-hover:opacity-100 group-hover:translate-y-0'>View case study <i className="fa-solid fa-magnifying-glass"></i></p>
+                    <img src="boardViewOutput.png" className="w-full rounded-lg hover:scale-[1.01] duration-150 brightness-95 "/>
+                    </div>
+                    </Link>
+
+                    <p className='text-neutral-100 text-xl font-medium'>Task Tracker (KanBan Board)</p>
+                    <p className='text-neutral-100 max-w-[65ch] text-lg'>A drag-and-drop task management application using @dnd-kit with optimistic UI and persistent ordering.</p>
+                    
+                       <div className='flex gap-3 flex-wrap text-sm font-medium items-center'>
+                        <a href="https://task-tracker-full-stack-psi.vercel.app/" target='_blank' className="text-center text-base text-neutral-100 z-10 after:z-[-1]  px-3 py-1.5  after:content-[''] after:w-full after:bg-olive-400 duration-300 border-2 border-olive-400 after:h-0 hover:after:h-full after:duration-300 after:block relative after:absolute after:bottom-0 after:left-0 hover:text-neutral-900 bg-olive-400/20">Live site</a>
+                        <a href="https://github.com/BrandonLeone1/Task-Tracker-Full-Stack" target='_blank' className="text-center  duration-300 text-neutral-100 hover:text-olive-400">GitHub <i className="fa-brands fa-github"></i></a>
+                        <Link to={'task-tracker'} className="text-center z-10 after:z-[-1] underline duration-300 text-neutral-100 hover:opacity-80 group">Case study <i className="fa-solid text-neutral-100 fa-arrow-right group-hover:translate-x-0.5 duration-300"></i></Link>
+                    </div>
+                    
+                    <div className='text-neutral-100 space-y-4 mt-4 max-w-[65ch] text-sm'>
+                        <p className='border-l border-olive-400/30 py-1 px-2'>Cross-column movements with persistent ordering</p>
+                        <p className='border-l border-olive-400/30 py-1 px-2'>MongoDB bulkWrite operations for efficient batch task updates</p>
+                        <p className='border-l border-olive-400/30 px-2 py-1 hidden md:block'>Multiple boards per user with tasks scoped per board</p>    
+                    </div>
+
+
+                 
+                
+                </div>
+
                 <div className='bg-neutral-800/50 rounded shadow-xl p-6 flex flex-col gap-4'>
 
 
@@ -76,7 +106,7 @@ export default function ProjectsSection () {
                 <Link to={'project-manager'} className="text-center z-10 after:z-[-1] underline duration-300 text-neutral-100 hover:opacity-80 group">Case study <i className="fa-solid text-neutral-100 fa-arrow-right group-hover:translate-x-0.5 duration-300"></i></Link>
                 </div>
                 
-                <div className='text-neutral-100 space-y-4 mt-4 max-w-[65ch]'>
+                <div className='text-neutral-100 space-y-4 mt-4 max-w-[65ch] text-sm'>
                     <p className='border-l border-olive-400/30 px-2 py-1'>Real-time Firestore syncing (onSnapshot)</p>
                     <p className='border-l border-olive-400/30 px-2 py-1'>Task progress tracking with computed metrics</p>
                     <p className='border-l border-olive-400/30 px-2 py-1 hidden md:block'>Project & user-scoped chat system</p>
@@ -87,33 +117,7 @@ export default function ProjectsSection () {
                 
                 </div>
 
-                <div className='bg-neutral-800/50 rounded shadow-xl p-6 flex flex-col gap-4'>
-                    
-                      <Link to={'task-tracker'}>
-                     <div className="after:content-[''] group after:bg-black/80 after:backdrop-blur-[1px] after:h-full after:opacity-0 hover:after:opacity-100 items-center justify-center flex after:duration-300 after:w-full after:block relative after:absolute after:inset-0">
-                    <p className='text-neutral-100 text-center absolute z-10 text-lg  cursor-pointer duration-150 origin-bottom overflow-hidden opacity-0 -translate-y-5 group-hover:opacity-100 group-hover:translate-y-0'>View case study <i className="fa-solid fa-magnifying-glass"></i></p>
-                    <img src="kanbanFinal.png" className="w-full rounded-lg hover:scale-[1.01] duration-150 brightness-95 "/>
-                    </div>
-                    </Link>
-
-                    <p className='text-neutral-100 text-xl font-medium'>Task Tracker (KanBan Board)</p>
-                    <p className='text-neutral-100 max-w-[65ch] text-lg'>A drag-and-drop task management application with real-time syncing and persistent ordering.</p>
-                    
-                       <div className='flex gap-3 flex-wrap text-sm font-medium items-center'>
-                        <a href="https://kanban-final-three.vercel.app/" target='_blank' className="text-center text-base text-neutral-100 z-10 after:z-[-1]  px-3 py-1.5  after:content-[''] after:w-full after:bg-olive-400 duration-300 border-2 border-olive-400 after:h-0 hover:after:h-full after:duration-300 after:block relative after:absolute after:bottom-0 after:left-0 hover:text-neutral-900 bg-olive-400/20">Live site</a>
-                        <a href="https://github.com/BrandonLeone1/kanban-final" target='_blank' className="text-center  duration-300 text-neutral-100 hover:text-olive-400">GitHub <i className="fa-brands fa-github"></i></a>
-                        <Link to={'task-tracker'} className="text-center z-10 after:z-[-1] underline duration-300 text-neutral-100 hover:opacity-80 group">Case study <i className="fa-solid text-neutral-100 fa-arrow-right group-hover:translate-x-0.5 duration-300"></i></Link>
-                    </div>
-                    
-                    <div className='text-neutral-100 space-y-4 mt-4 max-w-[65ch]'>
-                        <p className='border-l border-olive-400/30 py-1 px-2'>Cross-column movements with persistent ordering</p>
-                        <p className='border-l border-olive-400/30 py-1 px-2'>Tasks ordered and rendered by status (To-Do, Started, Finished)</p>
-                    </div>
-
-
-                 
                 
-                </div>
              </div>
         </>
     )

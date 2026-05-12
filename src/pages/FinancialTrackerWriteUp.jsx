@@ -38,8 +38,14 @@ const navigate = useNavigate();
      
             <div className="max-w-5xl p-6 mx-auto mt-12">
                 <ReturnNavBar />
-                <a href="https://financial-tracker-sage.vercel.app/" target='_blank' className="text-olive-400 underline hover:text-olive-500 duration-300 cursor-pointer text-3xl font-semibold mb-4">Financial Tracker - Case Study</a>
-                <p className='text-neutral-100 font-medium text-xl mb-6 max-w-[65ch] mt-2'>A full-stack finance dashboard focused on real-time analytics, performance, and scalable data handling.</p>
+                <p className="text-neutral-100 text-3xl font-semibold mb-4">Financial Tracker - Case Study</p>
+                <p className='text-neutral-100 font-medium text-xl mb-3 max-w-[65ch] mt-2'>A full-stack finance dashboard focused on real-time analytics, performance, and scalable data handling.</p>
+                
+                <div className="flex gap-4 text-olive-400 mb-6 text-sm">
+                <a href="https://financial-tracker-sage.vercel.app/" target="_blank" className="underline hover:opacity-80 duration-150 group">Live site <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
+                <a className="underline hover:opacity-80 duration-150 group" href="https://github.com/BrandonLeone1/Financial-Tracker" target="_blank" >GitHub <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
+                </div>
+
                 <div>
                 <video src="FinanceFinal.mp4" loop playsInline muted controls className="rounded" ref={videoRef}/>
                 </div>
@@ -99,7 +105,7 @@ const navigate = useNavigate();
                         navigate("/#projects-section");
                         history.replaceState(null,null, ' ');
                     }} className='hover:opacity-80 cursor-pointer duration-150 group font-medium'>Back to projects</p>
-                    <Link className="hover:opacity-80 cursor-pointer duration-150 group font-medium" to={`/project-manager`}>Next case study</Link>
+                    <Link className="hover:opacity-80 cursor-pointer duration-150 group font-medium" to={`/task-tracker`}>Next</Link>
                     </div>
                 </div>
         </>
