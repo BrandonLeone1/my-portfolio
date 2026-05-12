@@ -18,9 +18,9 @@ export default function HeroSection () {
                 <div className="flex gap-6 text-neutral-200 text-lg font-medium items-center justify-center">    
                     <a 
                     onClick={handleScroll}
-                    className="text-center text-base text-neutral-100 z-10 after:z-[-1] mx-auto px-3 py-1.5  after:content-[''] after:w-full after:bg-olive-400 duration-300 border-2 border-olive-400 after:h-0 hover:after:h-full after:duration-300 after:block relative after:absolute after:bottom-0 after:left-0 hover:text-neutral-900 bg-olive-400/20 cursor-pointer">Projects</a>
-                    <a href="https://github.com/BrandonLeone1" target="_blank" className="cursor-pointer hover:text-olive-400 duration-300">GitHub <i className="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/brandon-leone-a1b53a391/" target="_blank" className="cursor-pointer hover:text-olive-400 duration-300 ">LinkedIn <i className="fa-brands fa-square-linkedin"></i></a>
+                    className="text-center text-base text-neutral-100 mx-auto px-3 py-1.5 border-2 border-olive-400 bg-olive-400/20 cursor-pointer hover:bg-olive-400 duration-200">Projects</a>
+                    <a href="https://github.com/BrandonLeone1" target="_blank" className="cursor-pointer hover:text-olive-400 duration-150">GitHub <i className="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/brandon-leone-a1b53a391/" target="_blank" className="cursor-pointer hover:text-olive-400 duration-150">LinkedIn <i className="fa-brands fa-square-linkedin"></i></a>
                 </div>
             </div>
         </div>

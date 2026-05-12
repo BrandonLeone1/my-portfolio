@@ -69,7 +69,7 @@ export default function Navbar () {
             <header className={`w-full ${!isOpen ? 'bg-neutral-900/80' : 'bg-neutral-900'} duration-100 border-b sticky top-0 border-b-neutral-950 shadow-sm backdrop-blur-sm z-50`}>
                 <nav className="p-6 max-w-400 mx-auto flex items-center justify-between text-neutral-100">
                     <div>
-                        <a className="hover:text-olive-400 text-2xl duration-300 cursor-pointer" onClick={() => {
+                        <a className="hover:text-olive-400 text-2xl duration-150 cursor-pointer" onClick={() => {
                             heroScroll()
                             setIsOpen(false)
 
@@ -85,10 +85,10 @@ export default function Navbar () {
                     </div>
 
                     <div className="text-lg md:flex gap-6 hidden">
-                        <a onClick={projectsScroll} className="duration-300 cursor-pointer after:h-0.5 after:scale-x-0 hover:after:scale-x-100 after:duration-300 after:bg-olive-400 after:block">Projects</a>
-                        <a onClick={aboutScroll} className="duration-300 cursor-pointer after:h-0.5 after:scale-x-0 hover:after:scale-x-100 after:duration-300 after:bg-olive-400 after:block">About</a>
-                        <a onClick={skillsScroll} className="duration-300 cursor-pointer after:h-0.5 after:scale-x-0 hover:after:scale-x-100 after:duration-300 after:bg-olive-400 after:block">Skills</a>
-                        <a onClick={contactScroll} className="duration-300 cursor-pointer after:h-0.5 after:scale-x-0 hover:after:scale-x-100 after:duration-300 after:bg-olive-400 after:block">Contact</a>
+                        <a onClick={projectsScroll} className="duration-150 cursor-pointer after:h-0.5 after:scale-x-0 hover:after:scale-x-100 after:duration-150 after:bg-olive-400 after:block">Projects</a>
+                        <a onClick={aboutScroll} className="duration-150 cursor-pointer after:h-0.5 after:scale-x-0 hover:after:scale-x-100 after:duration-150 after:bg-olive-400 after:block">About</a>
+                        <a onClick={skillsScroll} className="duration-150 cursor-pointer after:h-0.5 after:scale-x-0 hover:after:scale-x-100 after:duration-150 after:bg-olive-400 after:block">Skills</a>
+                        <a onClick={contactScroll} className="duration-150 cursor-pointer after:h-0.5 after:scale-x-0 hover:after:scale-x-100 after:duration-150 after:bg-olive-400 after:block">Contact</a>
                     </div>
                 </nav>
                 <AnimatePresence>

@@ -12,15 +12,17 @@ export default function ContactSection () {
                     <div className="flex gap-6 flex-wrap text-neutral-100 text-lg justify-center items-center">
                         <a 
                         href="mailto:brandonjleone@gmail.com" target="_blank"
-                        className="border-2 border-olive-400 bg-olive-400/20 px-3 py-1.5 cursor-pointer after:content-[''] relative after:absolute after:w-full after:bg-olive-400 after:bottom-0 after:left-0 after:h-0 hover:after:h-full after:duration-300 after:z-[-1] hover:text-neutral-900 z-20 duration-300 font-medium">Email me</a>
+                        className="text-center text-neutral-100 px-3 py-1.5 duration-200 border-2 border-olive-400 bg-olive-400/20 hover:bg-olive-400/40 hover:border-olive-300/90 font-medium">Email me</a>
+                        
                         <a
                         target="_blank"
                         href="https://github.com/BrandonLeone1"
-                        className="border-2 border-olive-400 bg-olive-400/20 px-3 py-1.5 cursor-pointer after:content-[''] relative after:absolute after:w-full after:bg-olive-400 after:bottom-0 after:left-0 after:h-0 hover:after:h-full after:duration-300 after:z-[-1] hover:text-neutral-900 z-20 duration-300 font-medium">GitHub</a>
+                        className="text-center text-neutral-100 px-3 py-1.5 duration-200 border-2 border-olive-400 bg-olive-400/20 hover:bg-olive-400/40 hover:border-olive-300/90 font-medium">GitHub</a>
+                        
                         <a 
                         target="_blank"
                         href="B.L. Resume new.pdf"
-                        className="border-2 border-olive-400 bg-olive-400/20 px-3 py-1.5 cursor-pointer after:content-[''] relative after:absolute after:w-full after:bg-olive-400 after:bottom-0 after:left-0 after:h-0 hover:after:h-full after:duration-300 after:z-[-1] hover:text-neutral-900 z-20 duration-300 font-medium">Resume</a>
+                        className="text-center text-neutral-100 px-3 py-1.5 duration-200 border-2 border-olive-400 bg-olive-400/20 hover:bg-olive-400/40 hover:border-olive-300/90 font-medium">Resume</a>
                     </div>
                     </div>
                 </div>
