@@ -39,11 +39,11 @@ const navigate = useNavigate();
             <div className="max-w-5xl p-6 mx-auto mt-12">
                 <ReturnNavBar />
                 <p className="text-neutral-100 text-3xl font-semibold mb-4">Financial Tracker - Case Study</p>
-                <p className='text-neutral-100 font-medium text-xl mb-3 max-w-[65ch] mt-2'>A full-stack finance dashboard focused on real-time analytics, performance, and scalable data handling.</p>
+                <p className='text-neutral-100 font-medium text-xl mb-3 max-w-[65ch] mt-2'>Full-stack finance dashboard built to handle real-time transaction tracking, MongoDB aggregation pipelines, and performance-heavy data visualization.</p>
                 
                 <div className="flex gap-4 text-olive-400 mb-6 text-sm">
-                <a href="https://financial-tracker-sage.vercel.app/" target="_blank" className="underline hover:opacity-80 duration-150 group">Live site <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
-                <a className="underline hover:opacity-80 duration-150 group" href="https://github.com/BrandonLeone1/Financial-Tracker" target="_blank" >GitHub <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
+                <a href="https://financial-tracker-sage.vercel.app/" target="_blank" className="hover:opacity-80 duration-150 group">Live site <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
+                <a className="hover:opacity-80 duration-150 group" href="https://github.com/BrandonLeone1/Financial-Tracker" target="_blank" >GitHub <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
                 </div>
 
                 <div>
@@ -53,7 +53,7 @@ const navigate = useNavigate();
                 <p className="mt-6 text-neutral-100 max-w-[65ch] ">Finance Tracker is a full-stack web application designed to help users manage their income, expenses, and budgets through a centralized dashboard. It provides real-time insights into spending habits, category breakdowns, and budget usage</p>
             
                 <p className="text-xl font-medium mt-12 text-neutral-100">Why I Built This</p>
-                <p className="mt-6 text-neutral-100 max-w-[65ch]">I wanted to build a more advanced, real-world application that goes beyond basic CRUD functionality. My goal was to work with financial data, build a custom backend, and handle more complex logic like aggregation, analytics, and performance optimizations.</p>
+                <p className="mt-6 text-neutral-100 max-w-[65ch]">I wanted to move beyond CRUD-based projects and build a system that required data aggregation, derived state, and performance-aware backend design.</p>
 
                 <p className="text-xl font-medium mt-12 text-neutral-100">Key Features</p>
                 <div className="mt-6 text-neutral-100  flex flex-col gap-4">
@@ -85,12 +85,12 @@ const navigate = useNavigate();
                 <p><span className="font-medium text-neutral-100">Solution:</span> Replaced nested for loops with a map based lookup structure, reducing complexity from O(n^2) to O(n)</p>
 
                 <p><span className="font-medium text-neutral-100">Challenge:</span> Handling edge cases such as division by zero or missing data</p>
-                <p><span className="font-medium text-neutral-100">Solution:</span> Added safeguards for calcualations and default values to prevent NaN errors and UI crashes</p>
+                <p><span className="font-medium text-neutral-100">Solution:</span> Added safeguards for calculations and default values to prevent NaN errors and UI crashes</p>
                 </div>  
                 
                 <p className="text-xl font-medium mt-12 text-neutral-100">What I Learned</p>
                <div className="mt-6 text-neutral-100  flex flex-col gap-4">
-                        <p>1. How to design and structure a full backend API</p>
+                        <p>1. How to design and structure a custom REST API</p>
                         <p>2. Working with MongoDB aggregation for real-world data problems</p>
                         <p>3. Performance optimization in frontend data handling</p>
                         <p>4. Managing complex UI state across dashboard and visualizations</p>

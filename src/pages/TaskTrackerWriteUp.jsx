@@ -37,16 +37,16 @@ export default function TaskTrackerWriteUp () {
                 <p className="text-neutral-100 font-medium mb-3 text-xl max-w-[65ch] mt-2">A full-stack Kanban-style task management application built with React, Express, MongoDB, and @dnd-kit.</p>
                 
                 <div className="flex gap-4 text-olive-400 mb-6 text-sm">
-                <a href="https://task-tracker-full-stack-psi.vercel.app/" target="_blank" className="underline hover:opacity-80 duration-150 group">Live site <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
-                <a className="underline hover:opacity-80 duration-150 group" href="https://github.com/BrandonLeone1/Task-Tracker-Full-Stack" target="_blank" >GitHub <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
+                <a href="https://task-tracker-full-stack-psi.vercel.app/" target="_blank" className="hover:opacity-80 duration-150 group">Live site <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
+                <a className="hover:opacity-80 duration-150 group" href="https://github.com/BrandonLeone1/Task-Tracker-Full-Stack" target="_blank" >GitHub <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
                 </div>
                 <video src="kanbanv2.mp4" className="rounded" loop playsInline controls muted ref={videoRef}/>
                 <p className="text-xl font-medium mt-12 text-neutral-100 ">Overview</p>
                 <p className="mt-6 text-neutral-100 max-w-[65ch]">A Kanban-style task management application that allows users to organize tasks across columns with drag-and-drop functionality and real-time synchronization.</p>
             
                 <p className="text-xl font-medium mt-12 text-neutral-100">Why I Built This</p>
-                <p className="mt-6 text-neutral-100 max-w-[65ch]">I wanted to challenge myself with more advanced frontend state management and drag-and-drop interactions while learning how to persist complex UI behavior reliably in a backend database.</p>
-                <p className="mt-6 text-neutral-100 max-w-[65ch]">This project pushed me to think carefully about various concepts such as:</p>
+                <p className="mt-6 text-neutral-100 max-w-[65ch]">I built this to explore advanced frontend state management, particularly around drag-and-drop interactions, persistent ordering, and backend synchronization.</p>
+                <p className="mt-6 text-neutral-100 max-w-[65ch]">This project required careful design around:</p>
                 
                 <div className="flex flex-col gap-2 mt-6 text-neutral-100">
                 <p>• State synchronization</p>
@@ -71,7 +71,7 @@ export default function TaskTrackerWriteUp () {
                 <p className="text-xl font-medium mt-12 text-neutral-100">Technical Highlights</p>
                 <div className="mt-6 text-neutral-100  flex flex-col gap-4">
                     <p className="text-lg">Drag-and-Drop System</p>
-                    <p>• Implemented a full Kanban dnd workflow using @dnd-kit</p>
+                    <p>• Built a full Kanban drag-and-drop system using @dnd-kit with custom logic for ordering, cross-column movement, and state reconciliation</p>
                     <p>• Built custom logic for:</p>
                     <p className="ml-5">- Reordering tasks within columns</p>
                     <p className="ml-5">- Moving tasks across columns</p>
@@ -79,7 +79,7 @@ export default function TaskTrackerWriteUp () {
                     <p className="ml-5">- Maintaining stable UI state</p>
 
                     <p className="text-lg mt-4">Optimistic Updates</p>
-                    <p>• The UI updates immediately before backend confirmation for smoother interactions, specifically around task reodering and reclassifying</p>
+                    <p>• Implemented optimistic UI updates where the frontend updates immediately, followed by backend reconciliation and rollback handling on failure</p>
                     <p>• Implemented rollback handling to restore previous state if an API request fails</p>
                 
                     <p className="text-lg mt-4">Bulk Database Updates</p>
@@ -113,8 +113,8 @@ export default function TaskTrackerWriteUp () {
                  <p className="text-xl font-medium mt-12 text-neutral-100">Earlier Iteration</p>
                  
                  <div className="mt-6 flex flex-col gap-4 mb-4 text-neutral-100">
-                 <p >Before Before building this version, I created an earlier Firebase-based Kanban application focused on real-time syncing and drag-and-drop fundamentals. This rebuilt version expanded the project into a full-stack architecture with custom backend APIs, JWT authentication, MongoDB persistence, more advanced ordering logic, and a more scalable structure.</p>
-                 <a href="https://github.com/BrandonLeone1/kanban-final" target="_blank" className="underline hover:opacity-80 duration-150 text-sm group">View old repo (v1) <i className="fa-solid group-hover:translate-x-0.5 duration-150 fa-arrow-right"></i></a>
+                 <p >Before building this version, I created an earlier Firebase-based Kanban application focused on real-time syncing and drag-and-drop fundamentals. This rebuilt version expanded the project into a full-stack architecture with custom backend APIs, JWT authentication, MongoDB persistence, more advanced ordering logic, and a more scalable structure.</p>
+                 <a href="https://github.com/BrandonLeone1/kanban-final" target="_blank" className=" hover:opacity-80 duration-150 text-sm group">View old repo (v1) <i className="fa-solid group-hover:translate-x-0.5 duration-150 fa-arrow-right"></i></a>
                 </div>
             </div>
 

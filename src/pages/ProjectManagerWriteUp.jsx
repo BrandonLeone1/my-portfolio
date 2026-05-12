@@ -37,8 +37,8 @@ export default function ProjectManagerWriteUp () {
                 <p className="text-neutral-100 font-medium mb-3 text-xl max-w-[65ch] mt-2">A real-time project management tool with task tracking and team communication, built to simulate a lightweight SaaS workflow.</p>
                 
                 <div className="flex gap-4 text-olive-400 mb-6 text-sm">
-                <a href="https://project-management-app-nu-ashy.vercel.app/dashboard/" target="_blank" className="underline hover:opacity-80 duration-150 group">Live site <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
-                <a className="underline hover:opacity-80 duration-150 group" href="https://github.com/BrandonLeone1/project-management-app" target="_blank" >GitHub <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
+                <a href="https://project-management-app-nu-ashy.vercel.app/dashboard/" target="_blank" className="hover:opacity-80 duration-150 group">Live site <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
+                <a className="hover:opacity-80 duration-150 group" href="https://github.com/BrandonLeone1/project-management-app" target="_blank" >GitHub <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
                 </div>
                 
                 <video src="pManagerFinal.mp4" className="rounded" muted playsInline controls loop ref={videoRef}/>
@@ -46,7 +46,7 @@ export default function ProjectManagerWriteUp () {
                 <p className="mt-6 text-neutral-100 max-w-[65ch]">A full-stack project management application that allows users to create projects, manage tasks, track progress, and communicate through a built-in chat system.</p>
             
                 <p className="text-xl font-medium mt-12 text-neutral-100 ">Why I Built This</p>
-                <p className="mt-6 text-neutral-100 max-w-[65ch]">I wanted to simulate a real-world producitivty tool and learn how to manage complex state across multiple features, while also working with real-time data synchronization.</p>
+                <p className="mt-6 text-neutral-100 max-w-[65ch]">I wanted to simulate a real-world productivity tool and learn how to manage complex state across multiple features, while also working with real-time data synchronization.</p>
 
                 <p className="text-xl font-medium mt-12 text-neutral-100">Key Features</p>
                 <div className="mt-6 text-neutral-100  flex flex-col gap-4">

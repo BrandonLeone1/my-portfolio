@@ -13,19 +13,21 @@ export default function ProjectsSection () {
                 <div className="flex flex-col gap-4" >
                 <p className="text-neutral-100 text-4xl font-semibold">Projects</p>
                 
-                <p className="text-neutral-100 font-medium text-xl max-w-[65ch]">These are some of the projects I've built while learning full-stack development. I focus on building real-world applications with clean UI, scalable structure, and meaningful functionality.</p>
+                <p className="text-neutral-100 font-medium text-xl max-w-[65ch]">These projects reflect my focus on building full-stack applications with real world constraints
+                    such as data consistency, performance optimixation, and state management complexity.
+                </p>
                 
-                <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] bg-neutral-800/50 lg:min-h-120 lg:place-items-center gap-6 p-6 rounded mt-18">
+                <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] bg-neutral-800/50  lg:min-h-120 lg:place-items-center gap-6 p-6 rounded mt-18">
                     
                     
-                    <div className="flex flex-col gap-4 order-2 ">
+                    <div className="flex flex-col gap-4 order-2">
                         <p className="text-neutral-100 text-2xl font-medium">Personal Finance Manager</p>
-                        <p className="text-neutral-100 max-w-[65ch] text-lg">Full-stack finance dashboard focused on real-time analytics and scalable backend performance.</p>
+                        <p className="text-neutral-100 max-w-[65ch] text-lg">Full-stack finance dashboard built to handle real-time transaction tracking, MongoDB aggregation pipelines, and performance-heavy data visualization.</p>
                         
                          <div className='gap-3 flex-wrap flex items-center font-medium text-sm '>
                                 <a href="https://financial-tracker-sage.vercel.app/" target='_blank' className="text-center text-base text-neutral-100 px-3 py-1.5 duration-200 border-2 border-olive-400 bg-olive-400/20 hover:bg-olive-400/40 hover:border-olive-300/90">Live site</a>
-                                <a href="https://github.com/BrandonLeone1/Financial-Tracker" target='_blank' className="text-center duration-150 text-neutral-100 hover:text-olive-400">GitHub <i className="fa-brands fa-github"></i></a>
-                                <Link to={'financial-tracker'} className="text-center underline duration-150 text-neutral-100 group hover:opacity-80">Case study <i className="fa-solid text-neutral-100 fa-arrow-right group-hover:translate-x-0.5 duration-150"></i></Link>
+                                <a href="https://github.com/BrandonLeone1/Financial-Tracker" target='_blank' className="text-center duration-150 text-neutral-100 hover:opacity-80">GitHub <i className="fa-brands fa-github"></i></a>
+                                <Link to={'financial-tracker'} className="text-center duration-150 text-neutral-100 group hover:opacity-80">Case study <i className="fa-solid text-neutral-100 fa-arrow-right group-hover:translate-x-0.5 duration-150"></i></Link>
                         </div>
                         
                         <div className='text-neutral-100 space-y-4 mt-4 max-w-[65ch]'>
@@ -72,8 +74,8 @@ export default function ProjectsSection () {
                     
                        <div className='flex gap-3 flex-wrap text-sm font-medium items-center'>
                         <a href="https://task-tracker-full-stack-psi.vercel.app/" target='_blank' className="text-center text-base text-neutral-100 px-3 py-1.5 duration-200 border-2 border-olive-400 bg-olive-400/20 hover:bg-olive-400/40 hover:border-olive-300/90">Live site</a>
-                        <a href="https://github.com/BrandonLeone1/Task-Tracker-Full-Stack" target='_blank' className="text-center  duration-150 text-neutral-100 hover:text-olive-400">GitHub <i className="fa-brands fa-github"></i></a>
-                        <Link to={'task-tracker'} className="text-center z-10 after:z-[-1] underline duration-150 text-neutral-100 hover:opacity-80 group">Case study <i className="fa-solid text-neutral-100 fa-arrow-right group-hover:translate-x-0.5 duration-150"></i></Link>
+                        <a href="https://github.com/BrandonLeone1/Task-Tracker-Full-Stack" target='_blank' className="text-center  duration-150 text-neutral-100 hover:opacity-80">GitHub <i className="fa-brands fa-github"></i></a>
+                        <Link to={'task-tracker'} className="text-center z-10 after:z-[-1] duration-150 text-neutral-100 hover:opacity-80 group">Case study <i className="fa-solid text-neutral-100 fa-arrow-right group-hover:translate-x-0.5 duration-150"></i></Link>
                     </div>
                     
                     <div className='text-neutral-100 space-y-4 mt-4 max-w-[65ch] text-sm'>
@@ -102,8 +104,8 @@ export default function ProjectsSection () {
                 
                 <div className='flex gap-3  flex-wrap text-sm font-medium items-center'>
                 <a href="https://project-management-app-nu-ashy.vercel.app/dashboard" target='_blank' className="text-center text-base text-neutral-100 px-3 py-1.5 duration-200 border-2 border-olive-400 bg-olive-400/20 hover:bg-olive-400/40 hover:border-olive-300/90">Live site</a>
-                <a href="https://github.com/BrandonLeone1/project-management-app" target='_blank' className="text-center  duration-150 text-neutral-100 hover:text-olive-400">GitHub <i className="fa-brands fa-github"></i></a>
-                <Link to={'project-manager'} className="text-center z-10 after:z-[-1] underline duration-150 text-neutral-100 hover:opacity-80 group">Case study <i className="fa-solid text-neutral-100 fa-arrow-right group-hover:translate-x-0.5 duration-150"></i></Link>
+                <a href="https://github.com/BrandonLeone1/project-management-app" target='_blank' className="text-center  duration-150 text-neutral-100 hover:opacity-80">GitHub <i className="fa-brands fa-github"></i></a>
+                <Link to={'project-manager'} className="text-center z-10 after:z-[-1] duration-150 text-neutral-100 hover:opacity-80 group">Case study <i className="fa-solid text-neutral-100 fa-arrow-right group-hover:translate-x-0.5 duration-150"></i></Link>
                 </div>
                 
                 <div className='text-neutral-100 space-y-4 mt-4 max-w-[65ch] text-sm'>

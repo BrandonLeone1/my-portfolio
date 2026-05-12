@@ -12,7 +12,7 @@ export default function ReturnNavbar () {
                         navigate("/#projects-section")
                         history.replaceState(null,null, ' ')
                     }
-                        } className="text-xl mb-12 text-neutral-400 hover:opacity-80 font-medium duration-150 underline cursor-pointer">Back to projects</p>
+                        } className="text-xl mb-12 text-neutral-400 hover:opacity-80 font-medium duration-150 cursor-pointer">Back to projects</p>
                 </nav>
             </header>
         </>
