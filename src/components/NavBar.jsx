@@ -68,7 +68,7 @@ export default function Navbar () {
         <>
             <header className={`w-full ${!isOpen ? 'bg-neutral-900/80' : 'bg-neutral-900'} duration-100 border-b sticky top-0 border-b-neutral-950 shadow-sm backdrop-blur-sm z-50`}>
                 <nav className="p-6 max-w-400 mx-auto flex items-center justify-between text-neutral-100">
-                    <div>
+                    <div tabIndex={`0`}>
                         <button className="hover:text-olive-400 text-2xl duration-150 cursor-pointer" onClick={() => {
                             heroScroll()
                             setIsOpen(false)
@@ -76,7 +76,7 @@ export default function Navbar () {
                         }}>Brandon Leone</button>
                     </div>
 
-                    <div className="md:hidden flex flex-col gap-1 items-center justify-center cursor-pointer"
+                    <div tabIndex={`0`} className="md:hidden flex flex-col gap-1 items-center justify-center cursor-pointer"
                     onClick={() => setIsOpen(prev => !prev)}
                     >
                         <div className={`w-6.25 h-0.75 bg-neutral-100 rounded-xl`}></div>
