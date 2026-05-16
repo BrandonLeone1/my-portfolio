@@ -39,7 +39,7 @@ const navigate = useNavigate();
             <div className="max-w-5xl p-6 mx-auto mt-12">
                 <ReturnNavBar />
                 <p className="text-neutral-100 text-3xl font-semibold mb-4">Financial Analytics Platform - Case Study</p>
-                <p className='text-neutral-100 font-medium text-xl mb-3 max-w-[65ch] mt-2'>Full-stack finance dashboard built to handle real-time transaction tracking, MongoDB aggregation pipelines, and performance-heavy data visualization.</p>
+                <p className='text-neutral-100 font-medium text-xl mb-3 max-w-[65ch] mt-2'>Full-stack financial analytics platform for tracking transactions, budgets, and spending trends using PostgreSQL aggregation queries, secure JWT authentication, and interactive Recharts visualizations.</p>
                 
                 <div className="flex gap-4 text-olive-400 mb-6 text-sm">
                 <a href="https://sql-finance-analytics-platform.vercel.app/" target="_blank" className="hover:opacity-80 duration-150 group">Live site <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
@@ -116,7 +116,7 @@ const navigate = useNavigate();
                 </div>  
                 
                 <p className="text-xl font-medium mt-12 text-neutral-100">What I Learned</p>
-               <div className="mt-6 text-neutral-100  flex flex-col gap-4">
+               <div className="mt-6 text-neutral-100  flex flex-col gap-4 ml-2">
                         <p>• How relational databases outperform naive client aggregation</p>
                         <p>• Writing real-world SQL beyond basic CRUD</p>
                         <p>• Structuring backend systems for analytics workloads</p>
