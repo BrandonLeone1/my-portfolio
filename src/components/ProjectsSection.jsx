@@ -21,19 +21,19 @@ export default function ProjectsSection () {
                     
                     
                     <div className="flex flex-col gap-4 order-2">
-                        <p className="text-neutral-100 text-2xl font-medium">Personal Finance Manager</p>
-                        <p className="text-neutral-100 max-w-[65ch] text-lg">Full-stack finance dashboard built to handle real-time transaction tracking, MongoDB aggregation pipelines, and performance-heavy data visualization.</p>
+                        <p className="text-neutral-100 text-2xl font-medium">Financial Analytics Platform</p>
+                        <p className="text-neutral-100 max-w-[65ch] text-lg">Full-stack financial analytics platform for tracking transactions, budgets, and spending trends using PostgreSQL aggregation queries, secure JWT authentication, and interactive Recharts visualizations.</p>
                         
                          <div className='gap-3 flex-wrap flex items-center font-medium text-sm '>
-                                <a href="https://financial-tracker-sage.vercel.app/" target='_blank' className="text-center text-base text-neutral-100 px-3 py-1.5 duration-200 border-2 border-olive-400 bg-olive-400/20 hover:bg-olive-400/40 hover:border-olive-300/90">Live site</a>
-                                <a href="https://github.com/BrandonLeone1/Financial-Tracker" target='_blank' className="text-center duration-150 text-neutral-100 hover:opacity-80">GitHub <i className="fa-brands fa-github"></i></a>
+                                <a href="https://sql-finance-analytics-platform.vercel.app/" target='_blank' className="text-center text-base text-neutral-100 px-3 py-1.5 duration-200 border-2 border-olive-400 bg-olive-400/20 hover:bg-olive-400/40 hover:border-olive-300/90">Live site</a>
+                                <a href="https://github.com/BrandonLeone1/SQL-Finance-Analytics-Platform" target='_blank' className="text-center duration-150 text-neutral-100 hover:opacity-80">GitHub <i className="fa-brands fa-github"></i></a>
                                 <Link to={'financial-tracker'} className="text-center duration-150 text-neutral-100 group hover:opacity-80">Case study <i className="fa-solid text-neutral-100 fa-arrow-right group-hover:translate-x-0.5 duration-150"></i></Link>
                         </div>
                         
                         <div className='text-neutral-100 space-y-4 mt-4 max-w-[65ch]'>
-                            <p className='border-l border-olive-400/30 py-1 px-2'>Reduced data processing complexing from O(n^2) to O(n) using hashmap-based lookups</p>
-                            <p className='border-l border-olive-400/30 py-1 px-2'>Shifted financial aggregations to MongoDb improving dashboard performance and reducing client load upon render</p>
-                            <p className='border-l border-olive-400/30 py-1 px-2 hidden md:block'>Implemented stateless JWT authentication for secure, scalable user sessions</p>
+                            <p className='border-l border-olive-400/30 py-1 px-2'>Designed a relational PostgreSQL schema for transactions, budgets, and user-isolated financial data</p>
+                            <p className='border-l border-olive-400/30 py-1 px-2'>Developed SQL aggregation queries and derived analytics for category breakdowns, monthly comparisons, and budget tracking</p>
+                            <p className='border-l border-olive-400/30 py-1 px-2 hidden md:block'>Built responsive dashboard visualizations using Recharts with secure JWT-authenticated REST APIs</p>
                         </div>
 
                     </div>
@@ -44,7 +44,7 @@ export default function ProjectsSection () {
                         <div className="after:content-[''] group after:bg-black/80 after:backdrop-blur-[1px] after:h-full after:opacity-0 hover:after:opacity-100 items-center justify-center flex after:duration-300 after:w-full after:block relative after:absolute after:inset-0">
                         
                     <p className='text-neutral-100 text-center absolute z-10 text-lg  cursor-pointer duration-150 origin-bottom overflow-hidden opacity-0 -translate-y-5 group-hover:opacity-100 group-hover:translate-y-0'>View case study <i className="fa-solid fa-magnifying-glass"></i></p>
-                        <img src="financialRealFinal.png" className="rounded-lg w-full brightness-95 "/>
+                        <img src="SQLPICOUTPUT.png" className="rounded-lg w-full brightness-95 "/>
                         </div>
 
                         </Link> 

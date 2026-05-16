@@ -16,9 +16,9 @@ export default function HeroSection () {
                 <p className="text-neutral-300/80">Focused on real-time applications, scalable data handling, and performance-oriented frontend architecture</p>
 
                 <div className="flex gap-6 text-neutral-200 text-lg font-medium items-center justify-center">    
-                    <a 
+                    <button 
                     onClick={handleScroll}
-                    className="text-center text-base text-neutral-100 mx-auto px-3 py-1.5 border-2 border-olive-400 bg-olive-400/20 cursor-pointer hover:bg-olive-400 duration-200">Projects</a>
+                    className="text-center text-base text-neutral-100 mx-auto px-3 py-1.5 border-2 border-olive-400 bg-olive-400/20 cursor-pointer hover:bg-olive-400 duration-200">Projects</button>
                     <a href="https://github.com/BrandonLeone1" target="_blank" className="cursor-pointer hover:text-olive-400 duration-150">GitHub <i className="fa-brands fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/brandon-leone-a1b53a391/" target="_blank" className="cursor-pointer hover:text-olive-400 duration-150">LinkedIn <i className="fa-brands fa-square-linkedin"></i></a>
                 </div>
