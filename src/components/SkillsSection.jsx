@@ -8,7 +8,7 @@ export default function SkillsSection () {
         
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-6 mt-6 gap-6">
                 <div className="bg-neutral-800/10 shadow-xl rounded p-6 flex flex-col gap-4 border-2 border-black/0 hover:border-olive-400 duration-150">
-                    <p className="text-lg text-neutral-100 text-center">Frontend</p>
+                    <p className="text-lg text-neutral-100 text-center font-medium">Frontend</p>
                     <ul className="text-neutral-100 space-y-1 mt-2">
                         <div className="flex items-center gap-1  text-center justify-center"><li>React</li><i className="fa-brands fa-react text-lg "></i></div>
                         <div className="flex items-center gap-1  text-center justify-center"><li>TypeScript</li></div>
@@ -19,7 +19,7 @@ export default function SkillsSection () {
                 </div>
 
                 <div className="bg-neutral-800/10 shadow-xl rounded p-6 flex flex-col gap-4 border-2 border-black/0 hover:border-olive-400 duration-150">
-                    <p className="text-lg text-neutral-100 text-center">Backend & Databases</p>
+                    <p className="text-lg text-neutral-100 text-center font-medium">Backend & Databases</p>
 
                     <ul className="text-neutral-100 space-y-1 mt-2">
                        <div className="flex items-center gap-1  text-center justify-center"><li>Node.js</li><i className="fa-brands fa-node-js text-lg "></i></div>
@@ -33,7 +33,7 @@ export default function SkillsSection () {
                 </div>
 
                 <div className="bg-neutral-800/10 shadow-xl rounded p-6 flex flex-col gap-4 border-2 border-black/0 hover:border-olive-400 duration-150">
-                    <p className="text-lg text-neutral-100 text-center">Data & Analytics</p>
+                    <p className="text-lg text-neutral-100 text-center font-medium">Data & Analytics</p>
 
                     <ul className="text-neutral-100 space-y-1 mt-2">    
                     <div className="flex items-center gap-1  text-center justify-center"><li>Data Visualization</li><i className="fa-solid fa-chart-simple text-lg "></i></div>
@@ -49,7 +49,7 @@ export default function SkillsSection () {
                 </div>
 
                 <div className="bg-neutral-800/10 shadow-xl rounded p-6 flex flex-col gap-4 border-2 border-black/0 hover:border-olive-400 duration-150">
-                    <p className="text-lg text-neutral-100 text-center">Tools</p>
+                    <p className="text-lg text-neutral-100 text-center font-medium">Tools</p>
 
                     <ul className="text-neutral-100 space-y-1 mt-2">    
                     <div className="flex items-center gap-1  text-center justify-center"><li>Git & GitHub</li><i className="fa-brands fa-github text-lg "></i></div>
