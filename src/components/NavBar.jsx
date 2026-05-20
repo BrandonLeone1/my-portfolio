@@ -1,68 +1,10 @@
 import { useEffect, useState } from "react"
+import handleScroll from "../helpers/handleScroll";
 import {motion, AnimatePresence} from 'framer-motion'
 export default function Navbar () {
     
     const [isOpen, setIsOpen] = useState(false);
 
-    function heroScroll () {
-        const heroSection = document.querySelector("#hero");
-        if (heroSection) {
-            requestAnimationFrame(() => {
-                requestAnimationFrame(() => {
-                heroSection.scrollIntoView({behavior: "smooth"})
-                })
-            })
-            
-        }
-    }  
-
-    function skillsScroll () {
-        const skillsSection = document.querySelector("#skills");
-        if (skillsSection) {
-            requestAnimationFrame(() => {
-                requestAnimationFrame(() => {
-                    skillsSection.scrollIntoView({behavior: "smooth"})
-                })
-            })
-            
-        }
-    }
-
-    function projectsScroll () {
-        const projectsSection = document.querySelector("#projects-section");
-        if (projectsSection) {
-            requestAnimationFrame(() => {
-                requestAnimationFrame(() => {
-                    projectsSection.scrollIntoView({behavior: "smooth"})
-                })
-            })
-            
-        } 
-    }
-
-    function contactScroll () {
-        const contactSection = document.querySelector("#contact");
-        if (contactSection) {
-            requestAnimationFrame(() => {
-                requestAnimationFrame(() => {
-                    contactSection.scrollIntoView({behavior: "smooth"})
-                })
-            })
-            
-        }
-    }
-
-    function aboutScroll () {
-        const aboutSection = document.querySelector("#about");
-        if (aboutSection) {
-            requestAnimationFrame(() => {
-                requestAnimationFrame(() => {
-                    aboutSection.scrollIntoView({behavior: "smooth"})
-                })
-            })
-            
-        }
-    }
 
     return (
         <>
@@ -70,7 +12,7 @@ export default function Navbar () {
                 <nav className="p-6 max-w-400 mx-auto flex items-center justify-between text-neutral-100">
                     <div tabIndex={`0`}>
                         <button className="hover:text-olive-400 text-2xl duration-150 cursor-pointer" onClick={() => {
-                            heroScroll()
+                            handleScroll("hero")
                             setIsOpen(false)
 
                         }}>Brandon Leone</button>
@@ -85,10 +27,10 @@ export default function Navbar () {
                     </div>
 
                     <div className="text-lg md:flex gap-6 hidden">
-                        <button onClick={projectsScroll} className="duration-150 cursor-pointer after:h-0.5 after:scale-x-0 hover:after:scale-x-100 after:duration-150 after:bg-olive-400 after:block">Projects</button>
-                        <button onClick={aboutScroll} className="duration-150 cursor-pointer after:h-0.5 after:scale-x-0 hover:after:scale-x-100 after:duration-150 after:bg-olive-400 after:block">About</button>
-                        <button onClick={skillsScroll} className="duration-150 cursor-pointer after:h-0.5 after:scale-x-0 hover:after:scale-x-100 after:duration-150 after:bg-olive-400 after:block">Skills</button>
-                        <button onClick={contactScroll} className="duration-150 cursor-pointer after:h-0.5 after:scale-x-0 hover:after:scale-x-100 after:duration-150 after:bg-olive-400 after:block">Contact</button>
+                        <button onClick={() => handleScroll("projects-section")} className="duration-150 cursor-pointer after:h-0.5 after:scale-x-0 hover:after:scale-x-100 after:duration-150 after:bg-olive-400 after:block">Projects</button>
+                        <button onClick={() => handleScroll("about")} className="duration-150 cursor-pointer after:h-0.5 after:scale-x-0 hover:after:scale-x-100 after:duration-150 after:bg-olive-400 after:block">About</button>
+                        <button onClick={() => handleScroll("skills")} className="duration-150 cursor-pointer after:h-0.5 after:scale-x-0 hover:after:scale-x-100 after:duration-150 after:bg-olive-400 after:block">Skills</button>
+                        <button onClick={() => handleScroll("contact")} className="duration-150 cursor-pointer after:h-0.5 after:scale-x-0 hover:after:scale-x-100 after:duration-150 after:bg-olive-400 after:block">Contact</button>
                     </div>
                 </nav>
                 <AnimatePresence>
@@ -107,7 +49,7 @@ export default function Navbar () {
                         className="flex flex-col gap-6 items-center justify-center">
                         <button onClick={() => {
                             setIsOpen(false)
-                            projectsScroll();    
+                            handleScroll("projects-section")   
                        
                             
                            
@@ -116,7 +58,7 @@ export default function Navbar () {
                             <button 
                             onClick={() => {
                             setIsOpen(false)
-                            aboutScroll();    
+                            handleScroll("about")
             
                             
                             
@@ -124,7 +66,7 @@ export default function Navbar () {
                             className="hover:opacity-80 duration-300 cursor-pointer">About</button>
                         <button onClick={() => {
                             setIsOpen(false)
-                            skillsScroll();    
+                            handleScroll("skills")
                             
                            
                         }} className="hover:opacity-80 cursor-pointer">Skills</button>
@@ -132,7 +74,7 @@ export default function Navbar () {
                         
                         onClick={() => {
                             setIsOpen(false)
-                            contactScroll()    
+                            handleScroll("contact")
                             
                         }} className="hover:opacity-80 mb-6 cursor-pointer">Contact</button>
                         </motion.div>

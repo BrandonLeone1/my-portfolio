@@ -32,7 +32,7 @@ export default function ProjectsSection () {
                         
                         <div className='text-neutral-100 space-y-4 mt-4 max-w-[65ch]'>
                             <p className='border-l border-olive-400/30 py-1 px-2'>Designed a relational PostgreSQL schema for transactions, budgets, and user-isolated financial data</p>
-                            <p className='border-l border-olive-400/30 py-1 px-2'>Developed SQL aggregation queries and derived analytics for category breakdowns, monthly comparisons, and budget tracking</p>
+                            <p className='border-l border-olive-400/30 py-1 px-2'>Developed SQL aggregation queries and derived analytics to generate spending insights, category breakdowns, monthly trends, and budget analytics dashboards</p>
                             <p className='border-l border-olive-400/30 py-1 px-2 hidden md:block'>Built responsive dashboard visualizations using Recharts with secure JWT-authenticated REST APIs</p>
                         </div>
 

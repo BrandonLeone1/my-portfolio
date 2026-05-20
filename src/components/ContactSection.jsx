@@ -7,7 +7,7 @@ export default function ContactSection () {
                    
                    <div className="flex flex-col gap-6 mx-auto">
                    <p className="text-4xl font-semibold text-neutral-100">Let's Connect!</p>
-                    <p className="text-neutral-100 text-xl">If you're interested in working together or have an opporunity, I'd love to hear from you. I'm currently seeking an internship or junior front-end/full-stack opportunities.</p>
+                    <p className="text-neutral-100 text-xl">If you're interested in working together or have an opporunity, I'd love to hear from you. I'm currently seeking opportunities in full-stack development, analytics, or data-focused digital roles.</p>
 
                     <div className="flex gap-6 flex-wrap text-neutral-100 text-lg justify-center items-center">
                         <a 
@@ -21,7 +21,7 @@ export default function ContactSection () {
                         
                         <a 
                         target="_blank"
-                        href="B.L. Resume 5-16 polished.pdf"
+                        href="B.L. Resume 5-20.pdf"
                         className="text-center text-neutral-100 px-3 py-1.5 duration-200 border-2 border-olive-400 bg-olive-400/20 hover:bg-olive-400/40 hover:border-olive-300/90 font-medium">Resume</a>
                     </div>
                     </div>
