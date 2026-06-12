@@ -44,7 +44,7 @@ export default function ProjectsSection () {
                         <div className="after:content-[''] group after:bg-black/80 after:backdrop-blur-[1px] after:h-full after:opacity-0 hover:after:opacity-100 items-center justify-center flex after:duration-300 after:w-full after:block relative after:absolute after:inset-0">
                         
                     <p className='text-neutral-100 text-center absolute z-10 text-lg  cursor-pointer duration-150 origin-bottom overflow-hidden opacity-0 -translate-y-5 group-hover:opacity-100 group-hover:translate-y-0'>View case study <i className="fa-solid fa-magnifying-glass"></i></p>
-                        <img src="financialRealFinal.png" className="rounded-lg w-full hover:scale-[1.01] duration-150 brightness-95 "/>
+                        <img src="SQLPICOUTPUT.png" className="rounded-lg w-full brightness-95 "/>
                         </div>
 
                         </Link> 

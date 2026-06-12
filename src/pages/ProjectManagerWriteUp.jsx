@@ -33,14 +33,20 @@ export default function ProjectManagerWriteUp () {
         <>
             <div className="max-w-5xl p-6 mx-auto mt-12">
                 <ReturnNavbar />
-                <p className="text-neutral-100 text-3xl font-semibold mb-2">Project Manager - Case Study</p>
-                <p className="text-neutral-100 font-medium mb-6 text-xl max-w-[65ch]">A real-time project management tool with task tracking and team communication, built to simulate a lightweight SaaS workflow.</p>
+                <p className=" text-3xl font-semibold mb-4 text-neutral-100">Project Manager - Case Study</p>
+                <p className="text-neutral-100 font-medium mb-3 text-xl max-w-[65ch] mt-2">A real-time project management tool with task tracking and team communication, built to simulate a lightweight SaaS workflow.</p>
+                
+                <div className="flex gap-4 text-olive-400 mb-6 text-sm">
+                <a href="https://project-management-app-nu-ashy.vercel.app/dashboard/" target="_blank" className="hover:opacity-80 duration-150 group">Live site <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
+                <a className="hover:opacity-80 duration-150 group" href="https://github.com/BrandonLeone1/project-management-app" target="_blank" >GitHub <i className="fa-solid fa-arrow-right duration-150 group-hover:translate-x-0.5"></i></a>
+                </div>
+                
                 <video src="pManagerFinal.mp4" className="rounded" muted playsInline controls loop ref={videoRef}/>
                 <p className="text-xl font-medium mt-12 text-neutral-100">Overview</p>
                 <p className="mt-6 text-neutral-100 max-w-[65ch]">A full-stack project management application that allows users to create projects, manage tasks, track progress, and communicate through a built-in chat system.</p>
             
                 <p className="text-xl font-medium mt-12 text-neutral-100 ">Why I Built This</p>
-                <p className="mt-6 text-neutral-100 max-w-[65ch]">I wanted to simulate a real-world producitivty tool and learn how to manage complex state across multiple features, while also working with real-time data synchronization.</p>
+                <p className="mt-6 text-neutral-100 max-w-[65ch]">I wanted to simulate a real-world productivity tool and learn how to manage complex state across multiple features, while also working with real-time data synchronization.</p>
 
                 <p className="text-xl font-medium mt-12 text-neutral-100">Key Features</p>
                 <div className="mt-6 text-neutral-100  flex flex-col gap-4">
@@ -83,10 +89,10 @@ export default function ProjectManagerWriteUp () {
             <div className='text-neutral-400 w-full font-medium bg-neutral-900 border-t border-neutral-800 shadow-xl backdrop-blur-sm z-20 bottom-0 p-6 text-xl'>
                     <div className='max-w-7xl mx-auto flex items-center justify-between'>
                     <Link onClick={() => {
-                        navigate("/financial-tracker");
-                    }} className='hover:opacity-80 cursor-pointer duration-150 group'>Previous case study</Link>
+                        navigate("/task-tracker");
+                    }} className='hover:opacity-80 cursor-pointer duration-150 group'>Previous</Link>
                     
-                    <Link className="hover:opacity-80 cursor-pointer duration-150 group" to={`/task-tracker`}>Next case study</Link>
+                    <p className="hover:opacity-80 cursor-pointer duration-150 group" onClick={() => {navigate("/#projects-section"); history.replaceState(null,null, ' ');} }>Back to projects</p>
                     </div>
             </div>
 

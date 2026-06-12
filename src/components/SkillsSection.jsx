@@ -10,6 +10,7 @@ export default function SkillsSection () {
     return (
         <>
 
+
         <div className="max-w-6xl mx-auto p-6 mb-24" id="skills">
             
             <p className="text-4xl text-neutral-100 font-semibold">Skills</p>
@@ -21,8 +22,11 @@ export default function SkillsSection () {
                 <SkillsColumn title={"Infrastructure & Tools"} skillsArray={infrastructureSkills}/>
                 <SkillsColumn title={"Data & Analytics"} skillsArray={dataSkills}/>
 
+
             </div>
         </div>
+        
+
         </>
     )
 }
