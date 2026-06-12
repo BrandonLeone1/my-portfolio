@@ -7,7 +7,7 @@ export default function ContactSection () {
                    
                    <div className="flex flex-col gap-6 mx-auto">
                    <p className="text-4xl font-semibold text-neutral-100">Let's Connect!</p>
-                    <p className="text-neutral-100 text-xl">If you're interested in working together or have an opporunity, I'd love to hear from you. I'm currently seeking an internship or junior front-end/full-stack opportunities.</p>
+                    <p className="text-neutral-100 text-xl">If you're interested in working together or have an opportunity, I'd love to hear from you!</p>
 
                     <div className="flex gap-6 flex-wrap text-neutral-100 text-lg justify-center items-center">
                         <a 
