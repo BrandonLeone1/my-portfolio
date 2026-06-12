@@ -12,8 +12,9 @@ export default function HeroSection () {
         <div className="flex items-center justify-center h-screen -mt-25" id="hero">
             <div className="flex flex-col gap-6 text-center items-center max-w-5xl p-6 mx-auto">
                 <p className="text-4xl text-neutral-100 font-semibold">Brandon Leone</p>
-                <p className="text-neutral-100 font-medium text-lg">Full-Stack Developer</p>
-                <p className="text-neutral-300/80">I build modern web applications focused on real-time data, analytics, and performance</p>
+                <p className="text-neutral-100 font-medium text-lg">Full-Stack Developer | Marketing Data & Operations</p>
+                <p className="text-neutral-300/80">I build full-stack web applications with a focus on data integrity, secure backend architecture, and performance optimization. Leveraging a background in marketing analytics, I specialize in engineering clean data pipelines and display.</p>
+
 
                 <div className="flex gap-6 text-neutral-200 text-lg font-medium items-center justify-center">    
                     <a 

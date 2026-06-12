@@ -8,19 +8,19 @@ export default function ProjectsSection () {
     return (
         <>
     
-            <div className="max-w-7xl mx-auto p-6" id='projects-section'>
+            <div className="max-w-7xl mx-auto p-6 mt-44" id='projects-section'>
 
                 <div className="flex flex-col gap-4" >
                 <p className="text-neutral-100 text-4xl font-semibold">Projects</p>
-                
-                <p className="text-neutral-100 font-medium text-xl max-w-[65ch]">These are some of the projects I've built while learning full-stack development. I focus on building real-world applications with clean UI, scalable structure, and meaningful functionality.</p>
+            
+                <p className="text-neutral-100 font-medium text-xl max-w-[65ch]">Full-stack applications engineered around real-world constraints. Prioritizing data integrity, performance optimization, and secure system architecture.
+                </p>
                 
                 <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] bg-neutral-800/50 lg:min-h-120 lg:place-items-center gap-6 p-6 rounded mt-18">
-                    
-                    
-                    <div className="flex flex-col gap-4 order-2 ">
-                        <p className="text-neutral-100 text-2xl font-medium">Personal Finance Manager</p>
-                        <p className="text-neutral-100 max-w-[65ch] text-lg">Full-stack finance dashboard focused on real-time analytics and scalable backend performance.</p>
+                    <div className="flex flex-col gap-4 order-2">
+                        <p className="text-neutral-100 text-2xl font-medium">Collaborative Marketing Operations Platform</p>
+                        <p className="text-neutral-100 max-w-[65ch] text-lg">Full-stack financial analytics platform for tracking transactions, budgets, and spending trends using PostgreSQL aggregation queries, secure JWT authentication, and interactive Recharts visualizations.</p>
+
                         
                          <div className='gap-3 flex-wrap flex items-center font-medium text-sm '>
                                 <a href="https://financial-tracker-sage.vercel.app/" target='_blank' className="text-center text-base text-neutral-100 z-10 after:z-[-1] px-3 py-1.5  after:content-[''] after:w-full after:bg-olive-400 duration-300 border-2 border-olive-400 after:h-0 hover:after:h-full after:duration-300 after:block relative after:absolute after:bottom-0 after:left-0 hover:text-neutral-900 bg-olive-400/20">Live site</a>

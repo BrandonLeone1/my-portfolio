@@ -18,9 +18,9 @@ export default function HomePage () {
         
             <Navbar />
             <HeroSection />
+            <SkillsSection />
             <ProjectsSection />
             <AboutSection />
-            <SkillsSection />
             <ContactSection />
         </>
     )
