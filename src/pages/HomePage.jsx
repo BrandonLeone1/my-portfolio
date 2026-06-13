@@ -13,13 +13,14 @@ export default function HomePage () {
     return (
         <>
 
-        
             <Navbar />
+            <main>
             <HeroSection />
             <SkillsSection />
             <ProjectsSection />
             <AboutSection />
             <ContactSection />
+            </main>
         </>
     )
 }
