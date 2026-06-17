@@ -21,7 +21,7 @@ export default function ContactSection () {
                         
                         <a 
                         target="_blank"
-                        href="B.L. Resume 5-20.pdf"
+                        href="B.L. Resume 6-16.pdf"
                         className="text-center text-neutral-100 px-3 py-1.5 duration-200 border-2 border-olive-400 bg-olive-400/20 hover:bg-olive-400/40 hover:border-olive-300/90 font-medium">Resume</a>
                     </div>
                     </div>

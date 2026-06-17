@@ -38,10 +38,10 @@ const navigate = useNavigate();
      
             <div className="max-w-5xl p-6 mx-auto mt-12">
                 <ReturnNavBar />
-                <p className="text-neutral-100 text-3xl font-semibold mb-2">Marketing Platform - Case Study</p>
+                <p className="text-neutral-100 text-3xl font-semibold mb-2">Marketing Application - Case Study</p>
 
                 <div>
-                <video src="FinanceFinal.mp4" loop playsInline muted controls className="rounded" ref={videoRef} aria-label='Video walk-through of some of the projects capabilities'/>
+                <video src="marketingfinal.mp4" loop playsInline muted controls className="rounded" ref={videoRef} aria-label='Video walk-through of some of the projects capabilities'/>
                 </div>
                 <p className="text-xl font-medium mt-12 text-neutral-100">1. The Problem</p>
                 <p className="mt-6 text-neutral-100 max-w-[65ch] opacity-80">Marketing teams frequently rely on manual data exports from various platforms such as Google Ads to track campaign performance. However, these files are messy and are guaranteed to not fit the format of the rest of your data - currency symbols, metadata rows, etc. Manually cleaning this data and finding a way to organize/centralize it is difficult and introduces human error.</p>
